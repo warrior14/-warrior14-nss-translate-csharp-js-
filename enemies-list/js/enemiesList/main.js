@@ -56,7 +56,7 @@ const enemies = getEnemies();
 
 for (const enemy of enemies) {
     if (enemy.isReallyHated) {
-        console.log(`${enemy.firstName} ${enemy.lastName} (Really, really dislike)`);
+        console.log(`${enemy.firstName} ${enemy.lastName} (Really, really dislike!)`);
     } else {
         console.log(`${enemy.firstName} ${enemy.lastName}`);
     }
