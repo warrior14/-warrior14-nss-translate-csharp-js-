@@ -10,7 +10,7 @@ List<string> names = new List<string> {
 };
 
 // Print some output to the terminal (aka. "Console");
-Console.WriteLine("All Place Names");
+Console.WriteLine("All Places Names");
 
 // Iterate over each "name" in the "names" list
 foreach (string name in names)
@@ -26,7 +26,7 @@ Console.WriteLine();
 //  place names that start with the word "The".
 List<string> theNames = names.Where(n => n.StartsWith("The")).ToList();
 
-Console.WriteLine("'The' Place Names");
+Console.WriteLine("'The' Places Names");
 foreach (string name in theNames)
 {
     Console.WriteLine(name);
