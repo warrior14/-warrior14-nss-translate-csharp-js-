@@ -43,6 +43,10 @@ SpellBook MakeGoodSpellBook(List<Spell> allSpells)
     return goodBook;
 }
 
+List<List<string>> names = new List<List<string>>();
+names.Add(new List<string> {"Luke"});
+names.Add(new List<string> {"Gabe"});
+
 
 List<Spell> GetAllSpells()
 {
@@ -58,7 +62,7 @@ List<Spell> GetAllSpells()
             EnergyReqired = 2.99
         },
         new Spell() {
-            Name = "Give a deaf person the ability to heal",
+            Name = "Give a deaf person the ability to hear",
             IsEvil = false,
             EnergyReqired = 12.2
         },
